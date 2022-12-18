@@ -1,0 +1,9 @@
+.vscode
+!/.vscode
+
+.env
+
+*hidden*
+
+package-lock.json
+node_modules
