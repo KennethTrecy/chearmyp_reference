@@ -57,10 +57,11 @@ unstable syntax.
 		1|
 	```
 
-4. *Attacher*. These nodes are pair of concepts attached to a *simplex* or *complex*. These
-	concepts may be a metadata, adjective, reference, and others. They are written below or right
-	side of the *simplex* or *complex* they are attaching to. *Attachers* must have a colon (`:`) and
-	followed tab(s) or spaces(s) between the pairs namely label and content.
+4. *Attacher*. These nodes are pair of concepts may be attached to a *simplex* or *complex*. These
+	concepts may be a metadata, adjective, reference, and others. They are written indented below the
+	*simplex* or *complex* they are attaching to. These nodes can be used to describe the whole file
+	if these are on the root (hence, not attached to any *simplex* or *complex*). *Attachers* must
+	have a colon (`:`) and followed tab(s) or spaces(s) between the pairs namely label and content.
 	```
 	books
 		book_a|
@@ -81,10 +82,10 @@ unstable syntax.
 	```
 
 5. *Othertongue*. These nodes contain a different language from the rest of the document. Their
-	syntax is similar to *comments*. Due to the variety of languages, there are concepts also, that
+	syntax is  similar to *comments*. Due to the variety of languages, there are concepts also, that
 	have no direct translation to the current concept. However, *othertongues* must be contained to a
 	*complex*.
-	- *Line* othertongue. These othertoungues are similar to *line* comments. Their containment must
+	- *Line* othertongue. These othertongues are similar to *line* comments. Their containment must
 		be expressed by indention using tab(s) or in one line after the *complex*.
 		```
 		numbers
