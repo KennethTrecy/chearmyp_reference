@@ -48,7 +48,7 @@ The repository is licensed under [MIT-0].
 Read the [contributing guide] for different ways to contribute in the project.
 
 ### Author
-Chearmyp Parser was created by Kenneth Trecy Tobias.
+Chearmyp language was created by Kenneth Trecy Tobias.
 
 ### Disclaimer
 This personal project may contain references to trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
