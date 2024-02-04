@@ -1,5 +1,5 @@
 # Syntax Overview
-There are five general kinds of nodes that exist in Chearmyp. Take note that Chearmyp still have
+There are four general kinds of nodes that exist in Chearmyp. Take note that Chearmyp still have
 unstable syntax.
 
 1. *Comment*. These nodes may be used for documentation purposes. It has two subkinds: *line*
@@ -25,42 +25,38 @@ unstable syntax.
 			###
 		```
 
-2. *Simplex*. These nodes can be thought of as basic concepts that other concepts can use or
-	include. For example, `letter`. Since these are simple, they cannot contain other concepts.
-	Simplexes must end using a vertical line (`|`). It means that the concept "ends" there.
+2. *Edon*. These nodes can be thought of as basic concepts that other concepts can use or
+	include. They are the main nodes that may act as instructions, structure, or data.
 	```
-	letter|	# This is an example of simplex. Use tabs to comment.
-	1|	# A simplex can be a number.
-	?|	# A simplex can be anything as long it does not start a pound sign.
-	example city|	# And they may contain spaces too!
-	```
-
-3. *Complex*. These nodes are counterpart of *simplexes*. These are concepts that can contain other
-	*simplexes* and *complexes*. For example `word`, it can contain the `letter|`. To express the
-	containment of other nodes, those nodes must be indented using a tab.
-	```
-	# `word`, `punctuation`, and `binary` are examples of complex
-	word
-		letters
-			letter|
-			letter|
-		part_of_speech|
-		definition|
-
-	punctuation
-		.|
-		?|
-		!|
-
-	binary
-		0|
-		1|
+	language	# This is an example of edon. Use tabs to separate comment.
+		number
+			0	# An edon can be a number.
+			1
+			2
+			...	# An edon can be punctuations too.
+			9
+		noun
+			common
+			proper
+				Kenneth Trecy	# An edon may contain spaces too.
+		verb
+			types
+				regular
+				irregular
+			tenses
+				past
+				present
+				future
+		adjective
+		punctuations
+			.	# An edon can be anything as long as it does not start with a pound sign.
+			,
 	```
 
-4. *Attacher*. These nodes are pair of concepts may be attached to a *simplex* or *complex*. These
+3. *Attacher*. These nodes are pair of concepts may be attached to an *edon*. These
 	concepts may be a metadata, adjective, reference, and others. They are written indented below the
-	*simplex* or *complex* they are attaching to. These nodes can be used to describe the whole file
-	if these are on the root (hence, not attached to any *simplex* or *complex*). *Attachers* must
+	*edon* they are attaching to. These nodes can be used to describe the whole file
+	if these are on the root (hence, not attached to any *edon*). *Attachers* must
 	have a colon (`:`) and followed tab(s) or spaces(s) between the pairs namely label and content.
 	```
 	books
