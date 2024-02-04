@@ -1,7 +1,7 @@
 {
   "name": "chearmyp_reference",
-  "version": "v0.8.0-dev",
-  "description": "This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
+  "version": "0.8.0",
+  "description": "Outlines the specifics of Chearmyp language for unified understanding among developers.",
   "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
   "private": "true",
   "license": "MIT-0",
