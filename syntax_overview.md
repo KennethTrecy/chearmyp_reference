@@ -77,42 +77,28 @@ unstable syntax.
 		name: Book set A	# Attaches book set's name.
 	```
 
-5. *Othertongue*. These nodes contain a different language from the rest of the document. Their
-	syntax is  similar to *comments*. Due to the variety of languages, there are concepts also, that
-	have no direct translation to the current concept. However, *othertongues* must be contained to a
-	*complex*.
-	- *Line* othertongue. These othertongues are similar to *line* comments. Their containment must
-		be expressed by indention using tab(s) or in one line after the *complex*.
-		```
-		numbers
-			0|
-				= zero
-			1|
-				= one
-				= ...
-
-		attacher
-			= a pair of concepts that attach to other complex or simplex
-		```
-	- *Block* othertongue. These othertongues are similar to *block* comments. Instead of pound
-		signs, they are identified using three equal signs(`===`).
-		```
-		languages
-			natural
-				English
-					===
-					Good morning!
-					===
-				Filipino
-					===
-					Magandang umaga!
-					===
-				Kapampangan
-					===
-					Mayap na abak!
-					===
-			programming
+4. *Othertongue*. These nodes contain a different language from the rest of the document. Their
+	syntax is similar to *comments*. Due to the variety of languages, there are concepts also, that
+	have no direct translation to the current concept. However, *othertongues* must be contained to
+	a *block*. Their syntax is similar to *block* comments. Instead of pound signs, they are
+	identified using three equal signs(`===`).
+	```
+	languages
+		natural
+			English
 				===
-				print "Good morning!"
+				Good morning!
 				===
-		```
+			Filipino
+				===
+				Magandang umaga!
+				===
+			Kapampangan
+				===
+				Mayap na abak!
+				===
+		programming
+			===
+			print "Good morning!"
+			===
+	```
