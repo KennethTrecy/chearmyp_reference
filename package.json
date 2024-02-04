@@ -1,6 +1,6 @@
 {
   "name": "chearmyp_reference",
-  "version": "0.8.0",
+  "version": "0.8.0-dev",
   "description": "Outlines the specifics of Chearmyp language for unified understanding among developers.",
   "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
   "private": "true",
