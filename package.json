@@ -1,17 +1,17 @@
 {
-  "name": "chearmyp_reference",
-  "version": "0.8.0-dev",
-  "description": "Outlines the specifics of Chearmyp language for unified understanding among developers.",
-  "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
-  "private": "true",
-  "license": "MIT-0",
-  "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "changelogen": "^0.4.0",
-    "husky": "^8.0.0"
-  },
-  "scripts": {
-    "prepare": "husky install"
-  }
+	"name": "chearmyp_reference",
+	"version": "0.8.1",
+	"description": "Outlines the specifics of Chearmyp language for unified understanding among developers.",
+	"author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
+	"private": "true",
+	"license": "MIT-0",
+	"devDependencies": {
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"changelogen": "^0.4.0",
+		"husky": "^8.0.0"
+	},
+	"scripts": {
+		"prepare": "husky install"
+	}
 }
